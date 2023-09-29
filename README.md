@@ -1,19 +1,11 @@
 # Next Up - Movie Recommendation System
 <!-- ## Submission for Microsoft Intern Engage 2022 -->
-## Submission for Microsoft Intern Engage '22
-
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/55057608/170705077-90f2292f-8d71-46de-82f6-75a68a88a2c5.png" alt="Next up image" width="50%" />
-</p>
-
 
 ## Overview
 Next up is a movie recommendation system that offers generalized recommnendations to every user based on movie popularity, genre, and year. 
 The model also give personalized recommendations based on the user's choice of genre and cast.
 Finally, the system suggests similar movies have a higher probability of being liked based on the movie selected by user. 
 
-A deployed version can be checked here: [Next Up](https://next-up-movies.herokuapp.com/)
 
 
 ## Features
@@ -129,34 +121,6 @@ It is achieved by using Annoy (Approximate Nearest Neighbors) mechanism. Resourc
 
 ## Deployment
 For Deployment, I have used `Heroku` as a platform.
-A deployed version can be checked here: [Next Up](https://next-up-movies.herokuapp.com/)
-
-
-## Installation/Environment Setup
-1. Clone this repository in your local system.
-* Open terminal in a new folder and enter the command given below.
-   <!-- ```
-   git clone https://github.com/kashishahuja2002/Microsoft-Intern-Engage.git
-   ``` -->
-   ```
-   git clone https://github.com/kashishahuja2002/Minor-Project-Next-Up.git
-   ```
-
-2. Make sure that Python is installed and updated in your machine.
-
-3. Install dependencies.
-* Open terminal in the cloned folder and enter the command given below.
-   ```
-   pip3 install -r requirements.txt
-   ```
-  
-4. Run the project.
-* While you are still inside the cloned folder, write the following command in terminal to run the website locally. 
-   ```
-   python app.py
-   ```
-   
-5. If everything is done in order, the app will be running at "http://127.0.0.1:5000"
 
 
 ## CD Setup
@@ -171,17 +135,3 @@ For continious deployment, heroku is used. Any changes pushed to the main branch
 * `Collabrative Filtering` : The model currently uses a content-based recommendation system. It can be converted into a hybrid system by adding a collaborative filtering mechanism.
 
 
-## Documentation
-A complete project report for the system with use case diagram, web flow, ER diagram, wireframes, etc can be found here: [Next Up | Project Report](/documents/ProjectReport.docx.pdf).
-
-A short and crisp version of the documentation can be found here: [Next Up | Documentation](/documents/Documentation.pdf).
-
-A presentation for the project can be found here: [Next Up | Presentation](/documents/Presentation.pdf).
-
-
-## Video Demo
-The demo video for the app can be checked here: [Next Up | Video](https://youtu.be/2bBJNJMQEnY)
-
-
-<br><hr>
-Thank you, Microsoft Team for such a wonderful mentorship program ❤️
